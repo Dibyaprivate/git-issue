@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# prints "hlw" or "hlw, <name>" if an argument is provided
+import sys
+
+def main():
+    if len(sys.argv) > 1:
+        print(f"hlw, {sys.argv[1]}")
+    else:
+        print("hlw")
+
+if __name__ == "__main__":
+    main()
